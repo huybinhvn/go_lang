@@ -1,15 +1,16 @@
 # Go lang
 
-#### Bắt đàu nghiên cứu 09/2007 và được phát triển năm 2008 là ngôn ngữ lập trình mỡ, xử lý đa luồng, song song và tức thời.
+#### Bắt đàu nghiên cứu 09/2007 và được phát triển năm 2008 là ngôn ngữ lập trình mở, xử lý đa luồng, song song và tức thời.
 ##### Tốc độ biên dịch nhanh, cách coding đơn giản và ngắn gọn.
 
 ### Biểu tượng là con linh vật Gopher
 ![gopher](./img/Golang.png)
 
+
 ## Ưu điểm của Go
-- Biên dịch (compile language) nhanh chóng code sau khi biên dịch là nhị phân nên mức độ làm việc từ machine nhanh hơn.
+- Là ngôn ngữ lập trin biên dịch (compile language) nhanh chóng code sau khi biên dịch là nhị phân nên mức độ làm việc từ machine nhanh hơn.
 - Được phát triển dựa trên cải tiến từ C và C ++ nên Go lang là một ngôn ngữ biên dịch mạnh cho người coder cảm nhận là ngôn ngữ kịch bản (scripting language) hơn là ngôn ngữ biên dich.
-- __Tính tương thích cao__ do cách thức xử lý đa luồng nên coder không bị mất quyền truy cập hệ thống khi hệ thống đang xử lý và đông thời Go cũng có thể liên kết với thư viên C ở bên ngoài hoặc xử lý các tác nhiệm Native của hệ thống
+- __Tính tương thích cao__ do cách thức xử lý đa luồng nên coder không bị mất quyền truy cập hệ thống khi hệ thống đang xử lý và đồng thời Go cũng có thể liên kết với thư viên C ở bên ngoài hoặc xử lý các tác nhiệm Native của hệ thống
 - __Tính tiện lợi cao__ vì cảm nhận coding như scripting language nên Go cũng như Python cho coder cảm nhận Go lang có thể đáp ứng mọi nhu cầu lập trình phổ biến nhất. Các tính năng mới đều được cập nhật vào ngôn ngữ chính như __goroutines__ là hàm dành cho concurrency.
 - Go có tính năng quản lý cung cấp bộ nhớ xử lý tự động như Python và hỗ trợ những tính năng mở rộng theo Package nên việc phát triển của ngôn ngữ là rất lớn dựa vào cộng đồng.
 - __Đa hỗ trợ__ do Go lang complie là binary nên hầu hết các operater system để có thể hiểu được nên Linux, MacOS hoặc Windows đều có thể hiểu được Go lang giống như là Docker
@@ -36,12 +37,76 @@
 - Ngôn ngữ lập trình mỡ nên việc phát triển luôn cần thời gian và các cuộc khảo sát cho thấy chuyển đổi tới Go lang từ java, javascript, python là rất cao.
 
 
+## Hướng dẫn Cài đặt Go
+- [Origin site](https://go.dev/doc/tutorial/getting-started)
 
 
+## Học cơ bản của Go
+- [Go tour](https://go.dev/tour/moretypes/2)
 
+## 1 vài thao tác khi làm việc với GO
+- kiểm tra version của go: 
+```cmd
+go version
 
+go version go1.18.7 darwin/amd64
+```
 
+- Tạo module (thư viện) cho project
+```cmd
+go mod init demo-app
 
+go: creating new go.mod: module demo-app
+go: to add module requirements and sums:
+  go mod tidy
+```
 
+- Cài thư viên cho project
+```cmd
+go get gorm.io/gorm
+```
 
+- Kiểm toán lại thư viện cho project
+```cmd
+go mod tidy
+```
+
+Flow Demo App
+
+![demo-app-flow](./img/GoLang-Gin-Gorm.png)
+
+# Install project:
+
+### Clone source
+```cmd
+https://github.com/huybinhvn/go_lang
+```
+
+### Run project
+```cmd
+cd go_lang/go-gin-restful
+
+go mod tidy
+```
+
+### Compile source
+```cmd
+go build main.go
+```
+
+### Run project
+```cmd
+go run main.go
+```
+
+#### Server running at port:8008
+
+### Check web application
+http://localhost:8008
+
+### Check API from post-man
+import Go_Gin_Gorm.postman_collection.json
+
+### Server running with Log
+![demo-app-flow](./img/Screenshot-2024-01-08_at_2.06.10_PM.png)
 
