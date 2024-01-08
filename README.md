@@ -6,7 +6,6 @@
 ### Biểu tượng là con linh vật Gopher
 ![gopher](./img/Golang.png)
 
-
 ## Ưu điểm của Go
 - Là ngôn ngữ lập trin biên dịch (compile language) nhanh chóng code sau khi biên dịch là nhị phân nên mức độ làm việc từ machine nhanh hơn.
 - Được phát triển dựa trên cải tiến từ C và C ++ nên Go lang là một ngôn ngữ biên dịch mạnh cho người coder cảm nhận là ngôn ngữ kịch bản (scripting language) hơn là ngôn ngữ biên dich.
@@ -109,4 +108,7 @@ import Go_Gin_Gorm.postman_collection.json
 
 ### Server running with Log
 ![demo-app-flow](./img/Screenshot-2024-01-08_at_2.06.10_PM.png)
+
+### Goroutines
+![demo-app-flow](./img/go-routines.png)
 
