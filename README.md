@@ -10,7 +10,7 @@
 - Là ngôn ngữ lập trin biên dịch (compile language) nhanh chóng code sau khi biên dịch là nhị phân nên mức độ làm việc từ machine nhanh hơn.
 - Được phát triển dựa trên cải tiến từ C và C ++ nên Go lang là một ngôn ngữ biên dịch mạnh cho người coder cảm nhận là ngôn ngữ kịch bản (scripting language) hơn là ngôn ngữ biên dich.
 - __Tính tương thích cao__ do cách thức xử lý đa luồng nên coder không bị mất quyền truy cập hệ thống khi hệ thống đang xử lý và đồng thời Go cũng có thể liên kết với thư viên C ở bên ngoài hoặc xử lý các tác nhiệm Native của hệ thống
-- __Tính tiện lợi cao__ vì cảm nhận coding như scripting language nên Go cũng như Python cho coder cảm nhận Go lang có thể đáp ứng mọi nhu cầu lập trình phổ biến nhất. Các tính năng mới đều được cập nhật vào ngôn ngữ chính như __goroutines__ là hàm dành cho concurrency.
+- __Tính tiện lợi cao__ vì cảm nhận coding như scripting language nên Go cũng như Python cho coder cảm nhận Go lang có thể đáp ứng mọi nhu cầu lập trình phổ biến nhất. Các tính năng mới đều được cập nhật vào ngôn ngữ chính như __goroutines__ là hàm dành cho parallelism và concurrency.
 - Go có tính năng quản lý cung cấp bộ nhớ xử lý tự động như Python và hỗ trợ những tính năng mở rộng theo Package nên việc phát triển của ngôn ngữ là rất lớn dựa vào cộng đồng.
 - __Đa hỗ trợ__ do Go lang complie là binary nên hầu hết các operater system để có thể hiểu được nên Linux, MacOS hoặc Windows đều có thể hiểu được Go lang giống như là Docker
 - __Tốc độ làm việc__ ở tính tương đối ở các công việc nhỏ nhưng Go lang thể hiện là ngôn ngữ thích nghi với các dự án lớn đa số, hiệu suất làm việc của Go tốt ngang trong những phần công việc lớn và nhanh hơn so với các ngôn ngữ lập trình đã được đánh giá trước đó.
@@ -29,7 +29,6 @@
 - Go phát triển tốt trên nền tảng phát triển cloud-native sự kết hợp tốt của network và concurrency. Thực tế Google plat form dùng Go để phát triển nền tảng ứng dụng trên đó.
 - Go dùng phát triển các dự án phân phối dịch vụ mạng, các ứng dụng mạng hiện nay phụ thuộc vào concurrency và những tính năng native concurrency do Go cung cấp.
 - Dùng để thay thế cho cơ sở hạ tầng đang hiện có. Các chuyên gia cho rằng hạ tầng mạng hiện nay là lạc hậu.
-
 
 ## Con đường phát triển của Go
 - Go lang tự thúc đẩy bỏi nhu cầu sử dụng nó bằng cách hỗ trợ thêm các nhu cầu từ người dùng lấy Generic là ví dụ chẳng hạn.
@@ -111,4 +110,11 @@ import Go_Gin_Gorm.postman_collection.json
 
 ### Goroutines
 ![demo-app-flow](./img/go-routines.png)
+
+
+
+
+
+
+
 
