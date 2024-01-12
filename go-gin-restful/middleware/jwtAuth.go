@@ -1,7 +1,7 @@
 package middleware
 
 import (
-  "go-gin-restful/helper"
+  "github.com/huybinhvn/go_lang/go-gin-restful/helper"
   "fmt"
   "net/http"
 

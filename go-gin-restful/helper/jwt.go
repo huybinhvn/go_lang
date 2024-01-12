@@ -1,7 +1,7 @@
 package helper
 
 import (
-  "go-gin-restful/model"
+  "github.com/huybinhvn/go_lang/go-gin-restful/model"
   "errors"
   "fmt"
   "os"

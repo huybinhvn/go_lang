@@ -111,6 +111,11 @@ import Go_Gin_Gorm.postman_collection.json
 ### Goroutines
 ![demo-app-flow](./img/go-routines.png)
 
+### Testing
+```cmd
+go test ./testing
+go test ./testing -cover
+```
 
 
 

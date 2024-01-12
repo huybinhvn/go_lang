@@ -1,8 +1,8 @@
 package controller
 
 import (
-  "go-gin-restful/helper"
-  "go-gin-restful/model"
+  "github.com/huybinhvn/go_lang/go-gin-restful/helper"
+  "github.com/huybinhvn/go_lang/go-gin-restful/model"
   "net/http"
 
   "github.com/gin-contrib/sessions"

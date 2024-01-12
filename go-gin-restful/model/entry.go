@@ -1,7 +1,7 @@
 package model
 
 import (
-  "go-gin-restful/database"
+  "github.com/huybinhvn/go_lang/go-gin-restful/database"
   "gorm.io/gorm"
 )
 

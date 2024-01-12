@@ -1,10 +1,10 @@
 package main
 
 import (
-  "go-gin-restful/controller"
-  "go-gin-restful/database"
-  "go-gin-restful/middleware"
-  "go-gin-restful/model"
+  "github.com/huybinhvn/go_lang/go-gin-restful/controller"
+  "github.com/huybinhvn/go_lang/go-gin-restful/database"
+  "github.com/huybinhvn/go_lang/go-gin-restful/middleware"
+  "github.com/huybinhvn/go_lang/go-gin-restful/model"
   "strconv"
   "fmt"
   "log"
