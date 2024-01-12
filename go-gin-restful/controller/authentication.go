@@ -95,6 +95,7 @@ func Incr(context *gin.Context) {
 
   go routine1(1)
   go routine2(1)
+
   go routine1(2)
   go routine2(2)
 
