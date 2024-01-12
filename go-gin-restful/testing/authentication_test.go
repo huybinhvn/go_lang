@@ -1,8 +1,8 @@
 package testing
 
 import (
-  "github.com/huybinhvn/go_lang/go-gin-restful/controller"
-  "github.com/huybinhvn/go_lang/go-gin-restful/middleware"
+  "go-gin-restful/controller"
+  "go-gin-restful/middleware"
   "github.com/gin-gonic/gin"
 
   "github.com/gin-contrib/sessions/cookie"
